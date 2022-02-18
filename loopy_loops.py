@@ -6,7 +6,7 @@ if __name__ == "__main__":
         "charmander",
         "bulbasaur"
     )
-    #prints the first index
+    #prints pokemon at index 1
     print(pokemon[1])
 
     #unpack values of pokemon into new variables
