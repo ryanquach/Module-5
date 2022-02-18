@@ -40,7 +40,7 @@ if __name__ == "__main__":
             break
         my_list.append(float(input_value))
         print(f"Current list is: {my_list}")
-        
+            
     #so it doesn't produce an error when immediately stopped
     if len(my_list) > 0:
         average_list = sum(my_list) / len(my_list)
