@@ -36,18 +36,16 @@ if __name__ == "__main__":
         input_value = input("Please enter floating point value or stop:").lower()
         if input_value == "stop":
             print("Loop has stopped")
+            print(f"Final list is: {my_list}")
             break
         my_list.append(float(input_value))
         print(f"Current list is: {my_list}")
-    
-    print(f"Final list is: {my_list}")
-    average_list = sum(my_list) / len(my_list)
-    print(f"The average of the list is: {average_list}")
-    print(f"The minimum value of the list is: {min(my_list)}")
-    print(f"The maximum value of the list is {max(my_list)}")
-    
+        
+    #so it doesn't produce an error when immediately stopped
+    if len(my_list) > 0:
+        average_list = sum(my_list) / len(my_list)
+        print(f"The average of the list is: {average_list}")
+        print(f"The minimum value of the list is: {min(my_list)}")
+        print(f"The maximum value of the list is {max(my_list)}")
        
-            
-            
-            
         
