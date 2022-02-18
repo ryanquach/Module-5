@@ -22,12 +22,12 @@ if __name__ == "__main__":
 
     #create list from string using split()
     breakfast_string = "eggs,fruit,orange juice"
-    breakfast_list = breakfast_string.split(',')
-    print(breakfast_list)
+    breakfast= breakfast_string.split(',')
+    print(breakfast)
 
     #verify breakfast_list has 3 elements
-    breakfast_list_len = len(breakfast_list)
-    print(f"breakfast_list is 3 elements long: {breakfast_list_len == 3}")
+    breakfast_len = len(breakfast)
+    print(f"breakfast is 3 elements long: {breakfast_len == 3}")
 
     #prompt user for floating point values until stop is entered
     my_list = []
